@@ -1,0 +1,6 @@
+{
+  "appId": "com.quilleirlandaise.app",
+  "appName": "Quille Irlandaise",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

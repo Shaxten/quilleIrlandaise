@@ -1,0 +1,136 @@
+@import './base.css';
+@import './margin.css';
+
+.navBar{
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.title{
+  text-align: center;
+  font-size: 50px;
+}
+
+.subtitle{
+  font-size: 44px;
+  margin-bottom: 2rem;
+  border-bottom-width: 4px;
+}
+
+.Players{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playerStat{
+  padding: 0.5rem;
+    border-bottom-style: dashed;
+    border-width: 2px;
+}
+
+.divPlayerStat{
+  margin-top: 2rem;
+  padding:1rem;
+  border-style:double;
+}
+
+.inputPoint{
+  width: 100px;
+}
+
+.ajoutPoint{
+  background-color: #00bd7e;
+    color: white;
+    border: none;
+}
+
+.playerInGame{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.addPlayers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delete{
+  background-color: #ed8181;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.delete:hover{
+  background-color: #e65b5b;
+}
+
+.show{
+  display: block;
+}
+
+
+.delete:active{
+  background-color: #da0606;
+}
+
+.round{
+  border-radius: 50%;
+  background-color: #00bd7e;
+  color: white;
+  border: none;
+}
+
+input{
+  margin: 1rem;
+  font-size: 24px;
+}
+
+.input{
+  display: none
+  ;
+}
+
+#victory{
+  display: none;
+}
+
+.inputactive{
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-size: 32px;
+}
+
+button{
+  font-size: 18px;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.primColor{
+  color: hsla(160, 100%, 37%, 1);
+}
+
+.center{
+  text-align: center;
+}
+
+.secondColor{
+  color:rgba(235, 235, 235, 0.64);
+}
+
+@media (min-width: 1024px) {
+
+}
