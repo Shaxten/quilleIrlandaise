@@ -3,8 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "ionic:build": "vite build",
-    "ionic:serve": "vite serve",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

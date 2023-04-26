@@ -30,7 +30,7 @@ import IconCommunity from './icons/IconCommunity.vue'
         <button class="ajoutPoint" value="0" v-on:click="addPoints(k)">Ajouter points</button>  
       </div>
       <div class="divPlayerStat">
-        <h2 class="playerStat" v-show="k != 0" v-for="(input,k) in inputs" :key="k">{{input.name}} | {{input.points}} | <span v-bind:id="`strike${input.id}`"></span></h2>
+        <h2 class="playerStat" v-show="k != 0" v-for="(input,k) in inputs" :key="k">{{input.name}} | {{input.points}} | <span v-bind:id="`strike${input.id}`"></span></h2> 
       </div>      
     </div>
 
